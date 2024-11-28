@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Parkinsans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Parkinsans:wght@300..800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(176, 193, 206);
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.container{
+    border: 1px solid black;
+    max-width: 450px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 50px rgba(255, 255, 255, 0.6);
+    
+}
+
+.head-temp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.head-temp h1{
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(30, 31, 31);
+}
+
+.head-temp img{
+    width: 50px;
+    height: 50px;
+}
+
+#weather-icon{
+    width: 50px;
+    height: 50px;
+}
+
+#city-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 16px;
+    width: 65%;
+}
+
+#search{
+    padding: 10px;
+    border-radius: 16px;
+    background-color: rgb(46, 59, 59);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#weather-info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(35, 34, 34);
+    border: none;
+    cursor: pointer;
+}
+
+#weather-sun{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#weather-clouds{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#weather-rain{
+    
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: none;
+}
+
+#weather-rain1{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: none;
+}
+
+#weather-night{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: none;
+}

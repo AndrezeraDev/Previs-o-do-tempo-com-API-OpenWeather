@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="shortcut icon" href="/assets/nuvem.png" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <title>Previsão do tempo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head-temp"><h1>Previsão do tempo</h1> <img src="/assets/weather-forecast.png" alt=""></div>
+        
+        <form id="search-form">
+            <input type="text" id="city-input" placeholder="Digite o nome da cidade">
+            <button type="submit" id="search">Buscar</button>
+        </form>
+        <div id="weather-info">
+            <h2>Cidade: <span id="city-name"><i></i></span></h2> 
+            <p>Temperatura: <span id="temperature"></span></p>
+            <p>Descrição: <span id="description"></span></p>
+            <p>Umidade: <span id="humidity"></span></p>
+            <p>Velocidade do vento: <span id="wind-speed"></span></p>
+            <img id="weather-rain" src="/assets/gifs/rain.gif" alt="icone de chuva">
+            <img id="weather-rain1" src="/assets/gifs/rain (1).gif" alt="icone de chuva">
+            <img id="weather-sun" src="/assets/gifs/sun.gif" alt="icone de sol">
+            <img id="weather-clouds" src="/assets/gifs/clouds.gif" alt="icone de nuvens">
+            <img id="weather-night" src="/assets/gifs/night.gif" alt="Noite limpa">
+        </div>
+    </div>
+    
+
+    <script src="/script.js"></script>
+</body>
+</html>
